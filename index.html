@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodLink | Safe Food Rescue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="homePage" class="home-page">
+    <header class="home-header">
+      <div class="brand-wrap">
+        <div class="brand-mark">♻</div>
+        <span>FoodLink</span>
+      </div>
+      <nav class="home-nav">
+        <a href="#home">Home</a>
+        <a href="#mission">Mission</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#impact">Impact</a>
+      </nav>
+      <button class="nav-login-btn" onclick="showAuth()">Login</button>
+    </header>
+
+    <main class="home-main">
+      <section id="home" class="hero-section">
+        <div class="hero-copy">
+          <div class="eyebrow">🌍 Community-powered food rescue</div>
+          <h1>Turn surplus meals into second chances.</h1>
+          <p>
+            We connect verified donors, volunteers, and organizations to rescue safe food,
+            reduce waste, and nourish communities with dignity and care.
+          </p>
+          <div class="hero-actions">
+            <button class="secondary-home-btn" onclick="showAuth()">Get started</button>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <strong>12k+</strong>
+              <span>Meals rescued</span>
+            </div>
+            <div>
+              <strong>540</strong>
+              <span>Verified partners</span>
+            </div>
+            <div>
+              <strong>92%</strong>
+              <span>Food delivered on time</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-card main-photo">
+            <img src="https://thumbs.dreamstime.com/b/sharing-food-needy-18713207.jpg?w=576" alt="Food sharing" />
+          </div>
+          <div class="floating-message message-top">✅ 1,240 meals this week</div>
+          <div class="floating-message message-bottom">📍 34 pickup hubs active</div>
+        </div>
+      </section>
+
+      <section id="mission" class="story-band">
+        <div class="story-text">
+          <span class="section-tag">Our mission</span>
+          <h2>We make every meal count.</h2>
+          <p>
+            FoodLink exists to close the gap between excess food and real hunger. By making
+            the process safe, transparent, and simple, we help communities reduce waste while
+            meeting urgent needs faster.
+          </p>
+        </div>
+        <div class="story-grid">
+          <div class="story-item">
+            <div class="story-icon">🥗</div>
+            <h3>Reduce waste</h3>
+            <p>Fresh food reaches those who need it before it expires.</p>
+          </div>
+          <div class="story-item">
+            <div class="story-icon">🤝</div>
+            <h3>Build trust</h3>
+            <p>Verified donors and organizations collaborate with clarity and accountability.</p>
+          </div>
+          <div class="story-item">
+            <div class="story-icon">📦</div>
+            <h3>Track impact</h3>
+            <p>Every rescue is recorded, monitored, and reviewed for safe pickup.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features-section">
+        <div class="section-heading">
+          <span class="section-tag">Platform Features</span>
+          <h2>Everything you need for safe, smart food rescue.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>Verified Access</h3>
+            <p>Only trusted donors and organizations can participate, creating a safe environment for sharing.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">📋</div>
+            <h3>Food Safety Checks</h3>
+            <p>Every donation includes preparation, storage, expiry, and pickup details to reduce risk.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Live Tracking</h3>
+            <p>Monitor each food rescue from listing to pickup, so nothing gets lost or overlooked.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🌱</div>
+            <h3>Zero Waste Ecosystem</h3>
+            <p>We help turn surplus meals into impact, reducing landfill waste and feeding communities.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="process-section">
+        <div class="section-heading narrow">
+          <span class="section-tag">How it works</span>
+          <h2>Rescue food in three simple steps.</h2>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-no">01</div>
+            <h3>List a donation</h3>
+            <p>Donors add food details, quantities, storage, and deadlines in just a few steps.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-no">02</div>
+            <h3>Review and claim</h3>
+            <p>Verified organizations browse available food and confirm a claim when it matches their needs.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-no">03</div>
+            <h3>Pickup and impact</h3>
+            <p>Food is safely collected, tracked, and delivered to families, shelters, and communities.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="about-image-wrap">
+          <img src="https://media.istockphoto.com/id/1201642586/vector/people-take-food-from-a-plate.jpg?s=612x612&w=0&k=20&c=8DL3hJgAsYTRS4vhdO6yvdH30mha8MVrEZPiXrl8UJI=" />
+        </div>
+        <div class="about-copy">
+          <span class="section-tag">About us</span>
+          <h2>We’re building a better food system for everyone.</h2>
+          <p>
+            FoodLink was created to help communities reduce food waste and support vulnerable people through a transparent, dependable digital rescue system. We believe every meal has value and every neighborhood can become more resilient when people work together.
+          </p>
+          <ul class="about-points">
+            <li>Community-first and impact-driven</li>
+            <li>Built around safety, trust, and accountability</li>
+            <li>Made for donors, NGOs, and local volunteers</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="impact" class="impact-section">
+        <div class="section-heading">
+          <span class="section-tag">Impact</span>
+          <h2>Helping communities thrive every day.</h2>
+        </div>
+        <div class="impact-grid">
+          <div class="impact-card highlight">
+            <strong>8.5M</strong>
+            <span>Liters of food saved</span>
+          </div>
+          <div class="impact-card">
+            <strong>1,200+</strong>
+            <span>Active volunteers</span>
+          </div>
+          <div class="impact-card">
+            <strong>96%</strong>
+            <span>Safety compliance</span>
+          </div>
+          <div class="impact-card">
+            <strong>175</strong>
+            <span>Partner charities</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section">
+        <div class="section-heading narrow">
+          <span class="section-tag">Voices</span>
+          <h2>Trusted by people who care.</h2>
+        </div>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <p>“FoodLink helped our kitchen redirect food that would have gone to waste and serve it to families the same day.”</p>
+            <div class="person">
+              <strong>Riya N.</strong>
+              <span>Community donor</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <p>“The safety checks and live tracking gave our team confidence while handling food distribution at scale.”</p>
+            <div class="person">
+              <strong>Arjun K.</strong>
+              <span>NGO coordinator</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="cta-box">
+          <div>
+            <span class="section-tag alt">Be part of the change</span>
+            <h2>Bring food safety, compassion, and impact together.</h2>
+          </div>
+          <button class="primary-home-btn" onclick="showAuth()">Featured Login</button>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <!-- =========================================================
+       AUTH SCREEN
+  ========================================================= -->
+
+  <section id="authScreen">
+    <div class="auth-orb one"></div>
+    <div class="auth-orb two"></div>
+    <div class="auth-particle" style="left:12%;top:22%;--duration:7s;--delay:0s;">✦</div>
+    <div class="auth-particle" style="left:83%;top:18%;--duration:8s;--delay:1s;">·</div>
+    <div class="auth-particle" style="left:18%;top:76%;--duration:9s;--delay:2s;">🍃</div>
+    <div class="auth-particle" style="left:78%;top:72%;--duration:7s;--delay:1.5s;">✦</div>
+
+    <div class="auth-wrapper">
+      <!-- LEFT -->
+      <div class="auth-intro">
+        <div class="logo">
+          <div class="logo-mark">♻</div>
+          FoodLink
+        </div>
+        <h1>Rescue food.<br><span>Protect people.</span></h1>
+        <p>A simple and controlled platform that helps verified donors connect with verified organizations to rescue surplus food safely.</p>
+        <div class="auth-points">
+          <div class="auth-point"><div class="auth-check">✓</div> Verified users</div>
+          <div class="auth-point"><div class="auth-check">✓</div> Food safety information</div>
+          <div class="auth-point"><div class="auth-check">✓</div> Automatic expiry protection</div>
+          <div class="auth-point"><div class="auth-check">✓</div> Donation tracking</div>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="auth-form">
+        <!-- LOGIN -->
+        <div id="loginForm">
+          <h2>Welcome back</h2>
+          <p class="auth-subtitle">Sign in to manage donations or claim available food.</p>
+          <form class="form" onsubmit="login(event)">
+            <div class="form-group">
+              <label>EMAIL ADDRESS</label>
+              <input id="loginEmail" type="email" placeholder="you@example.com" autocomplete="email" required>
+            </div>
+            <div class="form-group">
+              <label>PASSWORD</label>
+              <input id="loginPassword" type="password" placeholder="Enter password" autocomplete="current-password" required>
+            </div>
+            <div class="form-group">
+              <label>LOGIN AS</label>
+              <select id="loginRole">
+                <option value="donor">Food Donor</option>
+                <option value="ngo">Verified Organization</option>
+              </select>
+            </div>
+            <button class="primary-btn" type="submit">Sign In →</button>
+          </form>
+          <div class="auth-switch">
+            Don't have an account?
+            <button type="button" onclick="showSignup()">Create account</button>
+          </div>
+        </div>
+
+        <!-- SIGNUP -->
+        <div id="signupForm" class="hidden">
+          <h2>Create account</h2>
+          <p class="auth-subtitle">Choose the role that matches your activity.</p>
+          <form class="form" onsubmit="signup(event)">
+            <div class="form-group">
+              <label>FULL NAME</label>
+              <input id="signupName" type="text" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label>EMAIL</label>
+              <input id="signupEmail" type="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-group">
+              <label>ACCOUNT TYPE</label>
+              <select id="signupRole">
+                <option value="donor">Food Donor</option>
+                <option value="ngo">NGO / Organization</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>PASSWORD</label>
+              <input id="signupPassword" type="password" minlength="6" placeholder="Minimum 6 characters" required>
+            </div>
+            <button class="primary-btn" type="submit">Create Account →</button>
+          </form>
+          <div class="auth-switch">
+            Already registered?
+            <button type="button" onclick="showLogin()">Sign in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       APPLICATION
+  ========================================================= -->
+
+  <section id="app" class="hidden">
+    <header class="app-header">
+      <div class="header-left">
+        <div class="header-brand">
+          <div class="header-mark">♻</div>
+          FoodLink
+        </div>
+        <nav class="nav-tabs">
+          <button class="nav-tab active" data-page="dashboard" onclick="showPage('dashboard',this)">Dashboard</button>
+          <button id="foodTab" class="nav-tab hidden" data-page="food" onclick="showPage('food',this)">Available Food</button>
+          <button class="nav-tab" data-page="tracking" onclick="showPage('tracking',this)">Tracking</button>
+        </nav>
+      </div>
+      <div class="header-right">
+        <div class="user-info">
+          <div class="avatar" id="avatar">U</div>
+          <div>
+            <div class="user-name" id="headerName">User</div>
+            <span class="user-role" id="headerRole">User</span>
+          </div>
+        </div>
+        <button class="logout" onclick="logout()">Logout</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- DONOR DASHBOARD -->
+      <div id="donorDashboard" class="hidden">
+        <div class="page-heading">
+          <div>
+            <h1>Donor Dashboard</h1>
+            <p>Manage your surplus food safely.</p>
+          </div>
+          <button class="dashboard-action" onclick="openDonationForm()">+ Add Food</button>
+        </div>
+        <div class="verification">
+          <div class="verification-left">
+            <div class="verification-icon">✓</div>
+            <div>
+              <div class="verification-title">Donor verification</div>
+              <div class="verification-text">Your account is eligible to create donations.</div>
+            </div>
+          </div>
+          <span class="verified">VERIFIED</span>
+        </div>
+        <div class="stats">
+          <div class="stat-card">
+            <div class="stat-label">ACTIVE DONATIONS</div>
+            <div class="stat-number" id="donorActive">0</div>
+            <div class="stat-description">Currently available</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">CLAIMED</div>
+            <div class="stat-number" id="donorClaimed">0</div>
+            <div class="stat-description">Successfully claimed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">EXPIRED</div>
+            <div class="stat-number" id="donorExpired">0</div>
+            <div class="stat-description">Past deadline</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">ACCOUNT STATUS</div>
+            <div class="stat-number" style="font-size:19px;color:var(--success);">VERIFIED ✓</div>
+            <div class="stat-description">Eligible to donate</div>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="panel">
+            <div class="panel-header">
+              <h2>My Donations</h2>
+              <span>Recent activity</span>
+            </div>
+            <div class="panel-body" id="donorList"></div>
+          </div>
+          <div class="panel">
+            <div class="panel-header">
+              <h2>Donation Safety</h2>
+              <span>Required</span>
+            </div>
+            <div class="panel-body">
+              <div class="safety-box">
+                <div class="safety-header">
+                  <strong>Before listing food</strong>
+                  <span class="safety-score">4 CHECKS</span>
+                </div>
+                <div class="check-list">
+                  <div class="check-row"><span>Preparation time</span><strong class="check-ok">Required ✓</strong></div>
+                  <div class="check-row"><span>Storage condition</span><strong class="check-ok">Required ✓</strong></div>
+                  <div class="check-row"><span>Expiry time</span><strong class="check-ok">Required ✓</strong></div>
+                  <div class="check-row"><span>Pickup deadline</span><strong class="check-ok">Required ✓</strong></div>
+                </div>
+              </div>
+              <div class="safety-warning">⚠ Never list food that is spoiled, contaminated, or unsafe.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NGO DASHBOARD -->
+      <div id="ngoDashboard" class="hidden">
+        <div class="page-heading">
+          <div>
+            <h1>Organization Dashboard</h1>
+            <p>Find and claim available surplus food.</p>
+          </div>
+        </div>
+        <div class="verification">
+          <div class="verification-left">
+            <div class="verification-icon">✓</div>
+            <div>
+              <div class="verification-title">Organization verification</div>
+              <div class="verification-text">Your organization can claim eligible food.</div>
+            </div>
+          </div>
+          <span class="verified">VERIFIED</span>
+        </div>
+        <div class="stats">
+          <div class="stat-card">
+            <div class="stat-label">AVAILABLE</div>
+            <div class="stat-number" id="availableCount">0</div>
+            <div class="stat-description">Currently claimable</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">MY CLAIMS</div>
+            <div class="stat-number" id="claimCount">0</div>
+            <div class="stat-description">Current claims</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">MEALS RESCUED</div>
+            <div class="stat-number" id="mealsRescued">0</div>
+            <div class="stat-description">From current data</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">STATUS</div>
+            <div class="stat-number" style="font-size:19px;color:var(--success);">VERIFIED ✓</div>
+            <div class="stat-description">Eligible to claim</div>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="panel">
+            <div class="panel-header">
+              <h2>Available Food</h2>
+              <span>Review before claiming</span>
+            </div>
+            <div class="panel-body">
+              <div class="search-row">
+                <input id="foodSearch" class="search-input" type="search" placeholder="Search food or location..." oninput="renderAvailableFood()">
+                <select id="foodFilter" class="search-input" onchange="renderAvailableFood()">
+                  <option value="all">All food</option>
+                  <option value="Vegetarian">Vegetarian</option>
+                  <option value="Non-Vegetarian">Non-Vegetarian</option>
+                  <option value="Bakery">Bakery</option>
+                  <option value="Fruits">Fruits</option>
+                  <option value="Packaged Food">Packaged Food</option>
+                </select>
+              </div>
+              <div id="availableFood"></div>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="panel-header">
+              <h2>Claim Requirements</h2>
+            </div>
+            <div class="panel-body">
+              <div class="check-list">
+                <div class="check-row"><span>Verified organization</span><strong class="check-ok">✓</strong></div>
+                <div class="check-row"><span>Food information</span><strong class="check-ok">✓</strong></div>
+                <div class="check-row"><span>Pickup before deadline</span><strong class="check-ok">✓</strong></div>
+                <div class="check-row"><span>Safety review</span><strong class="check-ok">Required</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOD FORM -->
+      <div id="foodPage" class="hidden">
+        <div class="page-heading">
+          <div>
+            <h1>Add Food Donation</h1>
+            <p>Provide accurate information before listing.</p>
+          </div>
+        </div>
+        <div class="panel form-panel">
+          <div class="panel-body">
+            <form id="donationForm" onsubmit="createDonation(event)">
+              <div class="section-label">Food information</div>
+              <div class="input-grid">
+                <div class="form-group">
+                  <label>FOOD NAME <span class="required">*</span></label>
+                  <input id="foodName" placeholder="Example: Vegetable Rice" maxlength="80" required>
+                </div>
+                <div class="form-group">
+                  <label>QUANTITY <span class="required">*</span></label>
+                  <input id="foodQuantity" type="number" min="1" max="100000" placeholder="Number of meals" required>
+                </div>
+                <div class="form-group">
+                  <label>FOOD TYPE <span class="required">*</span></label>
+                  <select id="foodType" required>
+                    <option value="">Select type</option>
+                    <option value="Vegetarian">Vegetarian</option>
+                    <option value="Non-Vegetarian">Non-Vegetarian</option>
+                    <option value="Bakery">Bakery</option>
+                    <option value="Fruits">Fruits</option>
+                    <option value="Packaged Food">Packaged Food</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>STORAGE CONDITION <span class="required">*</span></label>
+                  <select id="storage" required>
+                    <option value="">Select storage</option>
+                    <option>Refrigerated</option>
+                    <option>Hot / Heated</option>
+                    <option>Room Temperature</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>PREPARED DATE & TIME <span class="required">*</span></label>
+                  <input id="preparedTime" type="datetime-local" required>
+                </div>
+                <div class="form-group">
+                  <label>BEST-BEFORE / EXPIRY <span class="required">*</span></label>
+                  <input id="expiryTime" type="datetime-local" required>
+                </div>
+                <div class="form-group">
+                  <label>PICKUP DEADLINE <span class="required">*</span></label>
+                  <input id="pickupDeadline" type="datetime-local" required>
+                </div>
+                <div class="form-group">
+                  <label>PICKUP LOCATION</label>
+                  <input id="pickupLocation" maxlength="150" placeholder="Building / area / address" required>
+                </div>
+                <div class="form-group input-full">
+                  <label>ADDITIONAL INFORMATION</label>
+                  <textarea id="foodNotes" rows="3" maxlength="500" placeholder="Ingredients, allergens, packaging details, etc."></textarea>
+                </div>
+              </div>
+
+              <div class="section-label">Safety declaration</div>
+              <div class="safety-box">
+                <div class="check-list">
+                  <div class="check-row"><span>Food handled appropriately</span><strong class="check-ok">✓</strong></div>
+                  <div class="check-row"><span>Food is within stated date/time</span><strong class="check-ok">✓</strong></div>
+                  <div class="check-row"><span>Storage information is accurate</span><strong class="check-ok">✓</strong></div>
+                </div>
+                <div class="safety-warning">⚠ Do not list food that is spoiled, contaminated, or otherwise unsuitable.</div>
+              </div>
+
+              <div class="form-actions">
+                <button type="button" class="secondary-btn" onclick="showPage('dashboard')">Cancel</button>
+                <button type="submit" class="dashboard-action">Submit Donation →</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- TRACKING -->
+      <div id="trackingPage" class="hidden">
+        <div class="page-heading">
+          <div>
+            <h1>Food Tracking</h1>
+            <p>Follow donations from listing to completion.</p>
+          </div>
+        </div>
+        <div class="tracking" id="trackingList"></div>
+      </div>
+    </main>
+  </section>
+
+  <!-- =========================================================
+       CLAIM MODAL
+  ========================================================= -->
+
+  <div id="claimModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>Confirm Food Claim</h2>
+        <button class="close" onclick="closeClaimModal()">×</button>
+      </div>
+      <div class="modal-body">
+        <div id="claimDetails"></div>
+        <div class="safety-warning">⚠ Review the preparation, storage, expiry and pickup information before confirming this claim.</div>
+        <div class="form-actions">
+          <button class="secondary-btn" onclick="closeClaimModal()">Cancel</button>
+          <button class="dashboard-action" onclick="confirmClaim()">Confirm Claim →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div id="toast" class="toast">Done</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
